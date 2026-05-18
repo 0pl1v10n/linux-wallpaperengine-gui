@@ -147,25 +147,6 @@ A `.desktop` file is created so you can launch it from your application menu.
 * Requires `linux-wallpaperengine` to function
 * Works best on X11 or Wayland compositors with proper support
 * Some wallpapers may behave differently depending on system rendering
-
----
-
-## 🧑‍💻 Project Structure (simplified)
-
-```
-main.py        → Application entry point + GTK UI
-config/        → Settings handling
-engine/        → Wallpaper engine wrapper logic
-ui/            → GTK interface components
-utils/         → helpers (paths, process control)
-```
-
----
-
-## 📜 License
-
-GPL-3.0 (or same as upstream project)
-
 ---
 
 ## ❤️ Credits
